@@ -27,7 +27,7 @@ func readFile(path string) []byte {
 }
 
 func createImage(data *[]byte) *image.Gray {
-	img := image.NewGray(image.Rect(0, 0, 120, len(*data)/120))
+	img := image.NewGray(image.Rect(0, 0, 80, len(*data)/80))
 	img.Pix = *data
 	return img
 }
