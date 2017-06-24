@@ -11,6 +11,7 @@ Two ([one](https://github.com/pvlbzn/ftoi/blob/master/samples/img.jpg), [two](ht
 $ ftoi samples/img.jpg
 ...
 $ ftoi samples/img.png
+...
 ```
 
 Will produce `out.png` file for each call.
@@ -19,10 +20,12 @@ Result for [jpg](https://github.com/pvlbzn/ftoi/blob/master/samples/jpg.png) and
 
 For example we can zoom into headers:
 
-JPG:
+**JPG:**
+
 ![JPG header](https://github.com/pvlbzn/ftoi/blob/master/samples/jpeg_header.png)
 
-PNG:
+**PNG:**
+
 ![PNG header](https://github.com/pvlbzn/ftoi/blob/master/samples/png_header.png)
 
 
